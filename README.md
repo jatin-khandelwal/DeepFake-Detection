@@ -21,6 +21,7 @@ NumPy
 Pandas
 Matplotlib
 Scikit-learn
+
 📂 Project Structure
 deepfake-detection/
 │── dataset/
@@ -37,6 +38,7 @@ deepfake-detection/
 │── inference.py
 │── requirements.txt
 └── README.md
+
 🔍 Workflow
 Load videos from the FaceForensics++ dataset.
 Extract video frames.
@@ -45,6 +47,7 @@ Filter low-quality frames.
 Train EfficientNet-B4 and ViT-B/16 models.
 Evaluate using Accuracy, ROC-AUC, and Classification Report.
 Predict whether a video is Real or Deepfake.
+
 📊 Model Evaluation
 Accuracy
 ROC-AUC Score
@@ -52,9 +55,11 @@ Precision
 Recall
 F1-Score
 Classification Report
+
 📦 Dataset
 FaceForensics++
 Supports both Real and Manipulated videos.
+
 🔮 Future Improvements
 Real-time webcam deepfake detection
 Explainable AI (Grad-CAM) visualization
